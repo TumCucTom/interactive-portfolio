@@ -327,11 +327,13 @@ screen and (max-width:800px) {
 }
 
 .About_col1__9VqSi {
-	grid-column: 1/6;
-	display: flex;
-	align-items: flex-end
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 1rem;
 }
-
+  
 .About_col2__M7_0n {
 	grid-column: 7/10
 }

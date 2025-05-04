@@ -1389,13 +1389,37 @@
                                 children: ["Thomas Bale ", (0, i.jsx)("br", {}), "Portfolio "]
                             }), (0, i.jsxs)("div", {
                                 className: ue().innerContainer,
-                                children: [(0, i.jsxs)("p", {
+                                children: [(0, i.jsxs)("div", {
                                     className: ue().col1,
-                                    children: [x && (0, i.jsx)(i.Fragment, {
-                                        children: "Hi, my name is Thomas (Tom) Bale, and I'm a student, developer, business owner, and Ironman AG Athlete. I am pursuing a Bachelor's degree in Computer Science at the University of Bristol, currently achieving 83.5% (1st class) average in my contributing modules and top in cohort for computer systems A (86%). Alongside my university work, I explore my strong super-curricular passions for quantum computing, AI, and HPC. I also participate in triathlons/Ironman training and co-own a performance cycling products small business. \n\n\n My academic, super-curricular, and professional experience have given me a strong foundation in full-stack development, computer vision, ML, quantum computing, and algorithms. Find my projects below or on my GitHub relating to quantum and AI.\n\n\nPlease contact me below if you have any queries, or find out more about me on my LinkedIn profile!"
-                                    }), !x && (0, i.jsx)(i.Fragment, {
-                                        children: "Xin chào, tôi tên là Thomas (Tom) Bale, tôi là sinh viên, nhà phát triển, chủ doanh nghiệp và vận động viên Ironman AG. Tôi đang theo học Cử nhân Khoa học Máy tính tại Đại học Bristol, hiện đạt điểm trung bình 83,5% (hạng nhất) trong các mô-đun đóng góp của mình và đứng đầu nhóm về hệ thống máy tính A (86%). Bên cạnh công việc tại trường đại học, tôi còn khám phá niềm đam mê siêu chương trình giảng dạy mạnh mẽ của mình đối với điện toán lượng tử, AI và HPC. Tôi cũng tham gia các cuộc thi ba môn phối hợp/huấn luyện Ironman và đồng sở hữu một doanh nghiệp nhỏ về sản phẩm xe đạp hiệu suất. \n\n\nKinh nghiệm học tập, siêu chương trình giảng dạy và chuyên môn của tôi đã mang đến cho tôi nền tảng vững chắc về phát triển toàn diện, thị giác máy tính, ML, điện toán lượng tử và thuật toán. Tìm các dự án của tôi bên dưới hoặc trên GitHub của tôi liên quan đến lượng tử và AI.\n\n\nVui lòng liên hệ với tôi bên dưới nếu bạn có bất kỳ thắc mắc nào hoặc tìm hiểu thêm về tôi trên hồ sơ LinkedIn của tôi!"                                    })]
-                                }), (0, i.jsx)("div", {
+                                    children: [
+                                      x && (0, i.jsxs)(i.Fragment, {
+                                        children: [
+                                          (0, i.jsx)("p", {
+                                            children: "Hi, my name is Thomas (Tom) Bale, and I'm a student, developer, business owner, and Ironman AG Athlete. I am pursuing a Bachelor's degree in Computer Science at the University of Bristol, currently achieving 83.5% (1st class) average in my contributing modules and top in cohort for computer systems A (86%). Alongside my university work, I explore my strong super-curricular passions for quantum computing, AI, and HPC. I also participate in triathlons/Ironman training and co-own a performance cycling products small business."
+                                          }),
+                                          (0, i.jsx)("p", {
+                                            children: "My academic, super-curricular, and professional experience have given me a strong foundation in full-stack development, computer vision, ML, quantum computing, and algorithms. Find my projects below or on my GitHub relating to quantum and AI."
+                                          }),
+                                          (0, i.jsx)("p", {
+                                            children: "Please contact me below if you have any queries, or find out more about me on my LinkedIn profile!"
+                                          })
+                                        ]
+                                      }),
+                                      !x && (0, i.jsxs)(i.Fragment, {
+                                        children: [
+                                          (0, i.jsx)("p", {
+                                            children: "Xin chào, tôi tên là Thomas (Tom) Bale, tôi là sinh viên, nhà phát triển, chủ doanh nghiệp và vận động viên Ironman AG. Tôi đang theo học Cử nhân Khoa học Máy tính tại Đại học Bristol, hiện đạt điểm trung bình 83,5% (hạng nhất) trong các mô-đun đóng góp của mình và đứng đầu nhóm về hệ thống máy tính A (86%). Bên cạnh công việc tại trường đại học, tôi còn khám phá niềm đam mê siêu chương trình giảng dạy mạnh mẽ của mình đối với điện toán lượng tử, AI và HPC. Tôi cũng tham gia các cuộc thi ba môn phối hợp/huấn luyện Ironman và đồng sở hữu một doanh nghiệp nhỏ về sản phẩm xe đạp hiệu suất."
+                                          }),
+                                          (0, i.jsx)("p", {
+                                            children: "Kinh nghiệm học tập, siêu chương trình giảng dạy và chuyên môn của tôi đã mang đến cho tôi nền tảng vững chắc về phát triển toàn diện, thị giác máy tính, ML, điện toán lượng tử và thuật toán. Tìm các dự án của tôi bên dưới hoặc trên GitHub của tôi liên quan đến lượng tử và AI."
+                                          }),
+                                          (0, i.jsx)("p", {
+                                            children: "Vui lòng liên hệ với tôi bên dưới nếu bạn có bất kỳ thắc mắc nào hoặc tìm hiểu thêm về tôi trên hồ sơ LinkedIn của tôi!"
+                                          })
+                                        ]
+                                      })
+                                    ]
+                                  }), (0, i.jsx)("div", {
                                     className: ue().columnsContainer,
                                     children: (0, i.jsxs)("div", {
                                         className: ue().columnsWrapper,
