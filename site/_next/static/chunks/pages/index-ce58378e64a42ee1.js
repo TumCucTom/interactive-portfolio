@@ -1160,20 +1160,20 @@
                                         minWidth: 1361,
                                         children: (0, i.jsxs)(t, {
                                             children: [(0, i.jsx)("span", {
-                                                children: "Media Fa\xe7ade "
+                                                children: "Thomas "
                                             }), (0, i.jsx)("span", {
-                                                children: "Simulator"
+                                                children: "Bale"
                                             })]
                                         })
                                     }), (0, i.jsx)(G, {
                                         maxWidth: 1360,
                                         children: (0, i.jsxs)(t, {
                                             children: [(0, i.jsx)("span", {
-                                                children: "Media"
+                                                children: "Thomas"
                                             }), (0, i.jsx)("span", {
-                                                children: "Fa\xe7ade "
+                                                children: "RV "
                                             }), (0, i.jsx)("span", {
-                                                children: "Simulator"
+                                                children: "Bale"
                                             })]
                                         })
                                     })]
@@ -1186,7 +1186,7 @@
                                         className: U().start,
                                         children: (0, i.jsx)(b.animated.div, {
                                             style: v,
-                                            children: "start"
+                                            children: "view"
                                         })
                                     })]
                                 })]
@@ -1194,7 +1194,7 @@
                                 className: U().text,
                                 children: (0, i.jsx)(b.animated.span, {
                                     style: v,
-                                    children: "Hi, my name is Thomas Bale. This is my experimental personal portfolio site."
+                                    children: "Hi, my name is Thomas Bale. Co-Founder at Veloworks Components and an undergraduate at the University of Bristol. This is my experimental personal portfolio site. Feel free to look around!"
                                 })
                             })]
                         })
@@ -1353,7 +1353,7 @@
                             style: g,
                             children: [(0, i.jsx)("div", {
                                 className: ue().title,
-                                children: "Media Fa\xe7ade Simulator"
+                                children: "Thomas Bale"
                             }), (0, i.jsx)("div", {
                                 className: ue().close,
                                 onClick: function() {
@@ -1380,22 +1380,21 @@
                                 },
                                 children: (0, i.jsxs)("div", {
                                     children: [x && (0, i.jsx)(i.Fragment, {
-                                        children: "JP"
+                                        children: "VN"
                                     }), !x && (0, i.jsx)(i.Fragment, {
                                         children: "EN"
                                     })]
                                 })
                             }), (0, i.jsxs)("h1", {
-                                children: ["Media Fa\xe7ade ", (0, i.jsx)("br", {}), "Simulator"]
+                                children: ["Thomas Bale ", (0, i.jsx)("br", {}), "Portfolio "]
                             }), (0, i.jsxs)("div", {
                                 className: ue().innerContainer,
                                 children: [(0, i.jsxs)("p", {
                                     className: ue().col1,
                                     children: [x && (0, i.jsx)(i.Fragment, {
-                                        children: "Media Fa\xe7ade simulator is a demo website built on the SHIFT LINK system for billboard simulation. Users can change the contents of the virtual images and check the images from any viewpoint, as well as the sounds recorded in the real Shibuya area. In the future, we will build a system that connects this simulation with the real world."
+                                        children: "Hi, my name is Thomas (Tom) Bale, and I'm a student, developer, business owner, and Ironman AG Athlete. I am pursuing a Bachelor's degree in Computer Science at the University of Bristol, currently achieving 83.5% (1st class) average in my contributing modules and top in cohort for computer systems A (86%). Alongside my university work, I explore my strong super-curricular passions for quantum computing, AI, and HPC. I also participate in triathlons/Ironman training and co-own a performance cycling products small business. \n\n\n My academic, super-curricular, and professional experience have given me a strong foundation in full-stack development, computer vision, ML, quantum computing, and algorithms. Find my projects below or on my GitHub relating to quantum and AI.\n\n\nPlease contact me below if you have any queries, or find out more about me on my LinkedIn profile!"
                                     }), !x && (0, i.jsx)(i.Fragment, {
-                                        children: "Media Fa\xe7ade simulator\u306f\u3001\u30c7\u30b8\u30bf\u30eb\u30b5\u30a4\u30cd\u30fc\u30b8\u306e\u30b7\u30df\u30e5\u30ec\u30fc\u30b7\u30e7\u30f3\u3092\u3059\u308b\u70ba\u306eSHIFT LINK\u30b7\u30b9\u30c6\u30e0\u3067\u69cb\u7bc9\u3057\u305f\u30c7\u30e2\u30b5\u30a4\u30c8\u3067\u3059\u3002\u30d0\u30fc\u30c1\u30e3\u30eb\u4e0a\u306e\u6e0b\u8c37\u306e\u5efa\u7269\u306b\u4eee\u60f3\u306e\u6620\u50cf\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u8868\u793a\u3057\u3001\u30e6\u30fc\u30b6\u30fc\u306f\u4efb\u610f\u306e\u8996\u70b9\u3067\u6620\u50cf\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u5909\u66f4\u3057\u305f\u308a\u3001\u6e0b\u8c37\u3067\u9332\u97f3\u3057\u305f\u97f3\u3092\u4f53\u9a13\u3059\u308b\u4e8b\u304c\u51fa\u6765\u307e\u3059\u3002\u5c06\u6765\u7684\u306b\u306f\u3053\u306e\u30b7\u30df\u30e5\u30ec\u30fc\u30b7\u30e7\u30f3\u3068\u30ea\u30a2\u30eb\u304c\u7e4b\u304c\u308b\u3088\u3046\u306a\u30b7\u30b9\u30c6\u30e0\u3092\u69cb\u7bc9\u3057\u3066\u3044\u304d\u307e\u3059\u3002"
-                                    })]
+                                        children: "Xin chào, tôi tên là Thomas (Tom) Bale, tôi là sinh viên, nhà phát triển, chủ doanh nghiệp và vận động viên Ironman AG. Tôi đang theo học Cử nhân Khoa học Máy tính tại Đại học Bristol, hiện đạt điểm trung bình 83,5% (hạng nhất) trong các mô-đun đóng góp của mình và đứng đầu nhóm về hệ thống máy tính A (86%). Bên cạnh công việc tại trường đại học, tôi còn khám phá niềm đam mê siêu chương trình giảng dạy mạnh mẽ của mình đối với điện toán lượng tử, AI và HPC. Tôi cũng tham gia các cuộc thi ba môn phối hợp/huấn luyện Ironman và đồng sở hữu một doanh nghiệp nhỏ về sản phẩm xe đạp hiệu suất. \n\n\nKinh nghiệm học tập, siêu chương trình giảng dạy và chuyên môn của tôi đã mang đến cho tôi nền tảng vững chắc về phát triển toàn diện, thị giác máy tính, ML, điện toán lượng tử và thuật toán. Tìm các dự án của tôi bên dưới hoặc trên GitHub của tôi liên quan đến lượng tử và AI.\n\n\nVui lòng liên hệ với tôi bên dưới nếu bạn có bất kỳ thắc mắc nào hoặc tìm hiểu thêm về tôi trên hồ sơ LinkedIn của tôi!"                                    })]
                                 }), (0, i.jsx)("div", {
                                     className: ue().columnsContainer,
                                     children: (0, i.jsxs)("div", {
@@ -1403,10 +1402,11 @@
                                         children: [(0, i.jsxs)("div", {
                                             className: ue().col2,
                                             children: [(0, i.jsx)("h2", {
-                                                children: "SHIFT LINK"
+                                                children: "Contact Me",
+                                                href: "mailto:tokbale@outlook.com?subject=Inquiry%20About...&body=I%20wanted%20to%20reach%20out%20…",
                                             }), (0, i.jsxs)("p", {
                                                 children: [(0, i.jsx)(re(), {
-                                                    href: "https://shiftlink.tech/",
+                                                    href: "mailto:tokbale@outlook.com?subject=Inquiry%20About...&body=I%20wanted%20to%20reach%20out%20…",
                                                     passHref: !0,
                                                     children: (0, i.jsx)("a", {
                                                         className: ue().anchor,
@@ -1414,31 +1414,31 @@
                                                             display: "inline-block"
                                                         },
                                                         target: "_blank",
-                                                        children: "SHIFT LINK"
+                                                        children: "Contact Me "
                                                     })
-                                                }), "\xa0creates interfaces for the real and virtual, connecting various equipment, devices, people and services."]
+                                                }), "\xa0 about doing contracted work for you, about Veloworks Components, teaming up for an upcoming hackathon, or other general inquieries."]
                                             }), (0, i.jsx)("h2", {
-                                                children: "FOLLOW US"
+                                                children: "FOLLOW ME"
                                             }), (0, i.jsxs)("ul", {
                                                 className: ue().social,
                                                 children: [(0, i.jsx)("li", {
                                                     children: (0, i.jsx)(re(), {
-                                                        href: "https://www.instagram.com/theshift.tokyo/",
+                                                        href: "https://www.instagram.com/tom.ipynb/",
                                                         passHref: !0,
                                                         children: (0, i.jsx)("a", {
                                                             className: ue().anchor,
                                                             target: "_blank",
-                                                            children: "ig"
+                                                            children: "Instagram"
                                                         })
                                                     })
                                                 }), (0, i.jsx)("li", {
                                                     children: (0, i.jsx)(re(), {
-                                                        href: "https://twitter.com/theshift_tokyo",
+                                                        href: "https://www.linkedin.com/in/thomas-bale-5863542a4/",
                                                         passHref: !0,
                                                         children: (0, i.jsx)("a", {
                                                             className: ue().anchor,
                                                             target: "_blank",
-                                                            children: "tw"
+                                                            children: "LinkedIn"
                                                         })
                                                     })
                                                 })]
@@ -1449,6 +1449,16 @@
                                                 children: "CREDITS"
                                             }), (0, i.jsxs)("ul", {
                                                 children: [(0, i.jsxs)("li", {
+                                                    children: ["Adjustments / content:\xa0", (0, i.jsx)(re(), {
+                                                        href: "https://www.linkedin.com/in/thomas-bale-5863542a4/",
+                                                        passHref: !0,
+                                                        children: (0, i.jsx)("a", {
+                                                            className: ue().anchor,
+                                                            target: "_blank",
+                                                            children: "Thomas Bale"
+                                                        })
+                                                    })]
+                                                }), (0, i.jsxs)("li", {
                                                     children: ["Produce/ Creative Direction/ Design:\xa0", (0, i.jsx)(re(), {
                                                         href: "https://theshift.tokyo/",
                                                         passHref: !0,
@@ -1458,7 +1468,7 @@
                                                             children: "The Shift"
                                                         })
                                                     })]
-                                                }), (0, i.jsxs)("li", {
+                                                }),(0, i.jsxs)("li", {
                                                     children: ["Web Development / Field Recording:\xa0", (0, i.jsx)(re(), {
                                                         href: "https://aircord.co.jp/",
                                                         passHref: !0,
@@ -1532,7 +1542,7 @@
                                 className: de().text,
                                 children: (0, i.jsxs)(b.animated.span, {
                                     style: a,
-                                    children: ["Shibuya, ", (0, i.jsx)("br", {}), "Tokyo"]
+                                    children: ["Visuals: ", (0, i.jsx)("br", {}),"Tokyo",(0, i.jsx)("br", {}),"Me: ", (0, i.jsx)("br", {}),"Bristol"]
                                 })
                             })]
                         })
@@ -2338,7 +2348,7 @@
                             height: "251px"
                         }), oe.p8.to(o.current, {
                             onStart: function() {
-                                null != o.current && (o.current.innerText = "start")
+                                null != o.current && (o.current.innerText = "view")
                             },
                             duration: .3,
                             ease: "expo.out",
