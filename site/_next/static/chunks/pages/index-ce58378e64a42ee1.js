@@ -1171,8 +1171,6 @@
                                             children: [(0, i.jsx)("span", {
                                                 children: "Thomas"
                                             }), (0, i.jsx)("span", {
-                                                children: "RV "
-                                            }), (0, i.jsx)("span", {
                                                 children: "Bale"
                                             })]
                                         })
