@@ -1384,7 +1384,7 @@
                                     })]
                                 })
                             }), (0, i.jsxs)("h1", {
-                                children: ["Thomas Bale ", (0, i.jsx)("br", {}), "Portfolio "]
+                                children: ["Thomas Bale "]
                             }), (0, i.jsxs)("div", {
                                 className: ue().innerContainer,
                                 children: [(0, i.jsxs)("div", {
