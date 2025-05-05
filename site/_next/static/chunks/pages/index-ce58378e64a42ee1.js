@@ -2118,13 +2118,8 @@
                             })]
                         }),
                     
-                        
-                        (0, i.jsxs)("span", {
-                            className: Ie().buttonTitle,
-                            children: "Quick Links"
-                          }),
                           (0, i.jsxs)("ul", {
-                            className: Ie().quickLinks,
+                            className: Ie().slidersContainer,
                             children: [
                               // Contact Me
                               (0, i.jsx)("li", {
@@ -2190,7 +2185,7 @@
                                       ? e.cursor.current.dispMedium()
                                       : e.cursor.current.dispDrag(),
                                   children: (0, i.jsx)("img", {
-                                    src: "/_next/static/chunks/docs/github.sv",
+                                    src: "/_next/static/chunks/docs/github.svg",
                                     alt: "GitHub",
                                     className: Ie().quickLinkIcon
                                   })
