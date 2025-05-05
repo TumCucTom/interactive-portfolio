@@ -2070,7 +2070,7 @@
                         className: Ie().container,
                         children: [(0, i.jsx)("span", {
                             className: Ie().buttonTitle,
-                            children: "Jump To"
+                            children: "Explore"
                         }), (0, i.jsxs)("ul", {
                             className: Ie().buttons,
                             children: [(0, i.jsx)("li", {
@@ -2098,7 +2098,7 @@
                                     o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
                                 },
                                 children: (0, i.jsx)(De, {
-                                    name: "Experience",
+                                    name: "Work",
                                     isOn: d
                                 })
                             }), (0, i.jsx)("li", {
@@ -2112,7 +2112,7 @@
                                     o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
                                 },
                                 children: (0, i.jsx)(De, {
-                                    name: "Achievments",
+                                    name: "Personal",
                                     isOn: m
                                 })
                             })]
