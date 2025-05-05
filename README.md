@@ -2,4 +2,4 @@
 
 See [here](https://thomasbale.com)
 
-Heavily inspired by [media facade](https://media-facade.shiftlink.tech/)
+Heavily inspired by Shift Link
