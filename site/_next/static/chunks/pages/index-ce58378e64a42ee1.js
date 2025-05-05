@@ -2043,7 +2043,7 @@
                             }), (0, i.jsx)(b.animated.div, {
                                 className: Me().text,
                                 style: l,
-                                children: "default angle"
+                                children: "home | center"
                             })]
                         })
                     })
@@ -2070,7 +2070,7 @@
                         className: Ie().container,
                         children: [(0, i.jsx)("span", {
                             className: Ie().buttonTitle,
-                            children: "visualization types"
+                            children: "Jump To"
                         }), (0, i.jsxs)("ul", {
                             className: Ie().buttons,
                             children: [(0, i.jsx)("li", {
@@ -2116,205 +2116,112 @@
                                     isOn: m
                                 })
                             })]
-                        }), (0, i.jsxs)("div", {
-                            className: Ie().slidersContainer,
-                            children: [(0, i.jsxs)("div", {
-                                className: Ie().sliderContainer,
-                                children: [(0, i.jsx)("span", {
-                                    className: Ie().sliderTitle,
-                                    children: "visualization editors"
-                                }), (0, i.jsxs)("div", {
-                                    className: 0 == t ? "".concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn) : "".concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                    children: [(0, i.jsx)("label", {
-                                        children: "Hue"
-                                    }), (0, i.jsxs)(Ce, {
-                                        onValueChange: function(e) {
-                                            o.sliderA.val0 = e[0]
-                                        },
-                                        name: "hue",
-                                        min: 0,
-                                        max: 1,
-                                        step: .01,
-                                        defaultValue: [0],
-                                        onPointerEnter: function() {
-                                            e.cursor.current.dispSlider()
-                                        },
-                                        onPointerLeave: function() {
-                                            o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                        },
-                                        children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                    })]
-                                }), (0, i.jsxs)("div", {
-                                    className: 1 == t ? "".concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn) : "".concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                    children: [(0, i.jsx)("label", {
-                                        children: "Hue"
-                                    }), (0, i.jsxs)(Ce, {
-                                        onValueChange: function(e) {
-                                            o.sliderB.val0 = e[0]
-                                        },
-                                        name: "hue",
-                                        min: 0,
-                                        max: 6.28318530718,
-                                        step: .01,
-                                        defaultValue: [0],
-                                        onPointerEnter: function() {
-                                            e.cursor.current.dispSlider()
-                                        },
-                                        onPointerLeave: function() {
-                                            o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                        },
-                                        children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                    })]
-                                }), (0, i.jsxs)("div", {
-                                    className: 2 == t ? "".concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn) : "".concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                    children: [(0, i.jsx)("label", {
-                                        children: "Hue"
-                                    }), (0, i.jsxs)(Ce, {
-                                        onValueChange: function(e) {
-                                            o.sliderC.val0 = e[0]
-                                        },
-                                        name: "hue",
-                                        min: 0,
-                                        max: 1,
-                                        step: .01,
-                                        defaultValue: [1],
-                                        onPointerEnter: function() {
-                                            e.cursor.current.dispSlider()
-                                        },
-                                        onPointerLeave: function() {
-                                            o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                        },
-                                        children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                    })]
-                                })]
-                            }), (0, i.jsxs)("div", {
-                                className: 0 == t ? "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn, " ").concat(Ie().sliderOffset) : "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                children: [(0, i.jsx)("label", {
-                                    children: "Speed"
-                                }), (0, i.jsxs)(Ce, {
-                                    onValueChange: function(e) {
-                                        o.sliderA.val1 = e[0]
-                                    },
-                                    name: "speed",
-                                    min: 0,
-                                    max: 1,
-                                    step: .01,
-                                    defaultValue: [.5],
-                                    onPointerEnter: function() {
-                                        e.cursor.current.dispSlider()
-                                    },
-                                    onPointerLeave: function() {
-                                        o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                    },
-                                    children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                })]
-                            }), (0, i.jsxs)("div", {
-                                className: 1 == t ? "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn, " ").concat(Ie().sliderOffset) : "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                children: [(0, i.jsx)("label", {
-                                    children: "Speed"
-                                }), (0, i.jsxs)(Ce, {
-                                    onValueChange: function(e) {
-                                        o.sliderB.val1 = e[0]
-                                    },
-                                    name: "speed",
-                                    min: 0,
-                                    max: 1,
-                                    step: .01,
-                                    defaultValue: [.5],
-                                    onPointerEnter: function() {
-                                        e.cursor.current.dispSlider()
-                                    },
-                                    onPointerLeave: function() {
-                                        o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                    },
-                                    children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                })]
-                            }), (0, i.jsxs)("div", {
-                                className: 2 == t ? "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn, " ").concat(Ie().sliderOffset) : "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                children: [(0, i.jsx)("label", {
-                                    children: "Gamma"
-                                }), (0, i.jsxs)(Ce, {
-                                    onValueChange: function(e) {
-                                        o.sliderC.val1 = e[0]
-                                    },
-                                    name: "gamma",
-                                    min: 1.5,
-                                    max: 4,
-                                    step: .01,
-                                    defaultValue: [2.2],
-                                    onPointerEnter: function() {
-                                        e.cursor.current.dispSlider()
-                                    },
-                                    onPointerLeave: function() {
-                                        o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                    },
-                                    children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                })]
-                            }), (0, i.jsxs)("div", {
-                                className: 0 == t ? "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn, " ").concat(Ie().sliderOffset) : "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                children: [(0, i.jsx)("label", {
-                                    children: "DIMMER"
-                                }), (0, i.jsxs)(Ce, {
-                                    onValueChange: function(e) {
-                                        o.sliderA.val2 = e[0]
-                                    },
-                                    name: "dimmer",
-                                    min: 0,
-                                    max: 1,
-                                    step: .01,
-                                    defaultValue: [1],
-                                    onPointerEnter: function() {
-                                        e.cursor.current.dispSlider()
-                                    },
-                                    onPointerLeave: function() {
-                                        o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                    },
-                                    children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                })]
-                            }), (0, i.jsxs)("div", {
-                                className: 1 == t ? "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn, " ").concat(Ie().sliderOffset) : "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                children: [(0, i.jsx)("label", {
-                                    children: "DIMMER"
-                                }), (0, i.jsxs)(Ce, {
-                                    onValueChange: function(e) {
-                                        o.sliderB.val2 = e[0]
-                                    },
-                                    name: "dimmer",
-                                    min: 0,
-                                    max: 1,
-                                    step: .01,
-                                    defaultValue: [1],
-                                    onPointerEnter: function() {
-                                        e.cursor.current.dispSlider()
-                                    },
-                                    onPointerLeave: function() {
-                                        o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                    },
-                                    children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                })]
-                            }), (0, i.jsxs)("div", {
-                                className: 2 == t ? "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOn, " ").concat(Ie().sliderOffset) : "".concat(Ie().sliderContainer, " ").concat(Ie().sliderWrapper, " ").concat(Ie().sliderOff),
-                                children: [(0, i.jsx)("label", {
-                                    children: "DIMMER"
-                                }), (0, i.jsxs)(Ce, {
-                                    onValueChange: function(e) {
-                                        o.sliderC.val2 = e[0]
-                                    },
-                                    name: "dimmer",
-                                    min: 0,
-                                    max: 1,
-                                    step: .01,
-                                    defaultValue: [1],
-                                    onPointerEnter: function() {
-                                        e.cursor.current.dispSlider()
-                                    },
-                                    onPointerLeave: function() {
-                                        o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
-                                    },
-                                    children: [(0, i.jsx)(Ne, {}), (0, i.jsx)(Ee, {})]
-                                })]
-                            })]
-                        }), (0, i.jsx)("div", {
+                        }),
+                    
+                        
+                        (0, i.jsxs)("span", {
+                            className: Ie().buttonTitle,
+                            children: "Quick Links"
+                          }),
+                          (0, i.jsxs)("ul", {
+                            className: Ie().quickLinks,
+                            children: [
+                              // Contact Me
+                              (0, i.jsx)("li", {
+                                className: Ie().quickLinkItem,
+                                children: (0, i.jsx)("a", {
+                                  href: "mailto:tokbale@outlook.com?subject=Inquiry%20About...&body=Hello%20Thomas,",
+                                  target: "_blank",
+                                  rel: "noopener noreferrer",
+                                  className: Ie().quickLinkLink,
+                                  onPointerEnter: () => e.cursor.current.dispSmall(),
+                                  onPointerLeave: () =>
+                                    o.transition.isZoom
+                                      ? e.cursor.current.dispMedium()
+                                      : e.cursor.current.dispDrag(),
+                                  children: "Contact Me"
+                                })
+                              }),
+                          
+                              // Business Website
+                              (0, i.jsx)("li", {
+                                className: Ie().quickLinkItem,
+                                children: (0, i.jsx)("a", {
+                                  href: "https://shopveloworks.com",
+                                  target: "_blank",
+                                  rel: "noopener noreferrer",
+                                  className: Ie().quickLinkLink,
+                                  onPointerEnter: () => e.cursor.current.dispSmall(),
+                                  onPointerLeave: () =>
+                                    o.transition.isZoom
+                                      ? e.cursor.current.dispMedium()
+                                      : e.cursor.current.dispDrag(),
+                                  children: "Business Website"
+                                })
+                              }),
+                          
+                              // Download CV
+                              (0, i.jsx)("li", {
+                                className: Ie().quickLinkItem,
+                                children: (0, i.jsx)("a", {
+                                  href: "/_next/static/chunks/docs/cv_thomas_bale.pdf",
+                                  download: "Thomas_Bale_CV.pdf",
+                                  className: Ie().quickLinkLink,
+                                  onPointerEnter: () => e.cursor.current.dispSmall(),
+                                  onPointerLeave: () =>
+                                    o.transition.isZoom
+                                      ? e.cursor.current.dispMedium()
+                                      : e.cursor.current.dispDrag(),
+                                  children: "Download CV"
+                                })
+                              }),
+                          
+                              // GitHub
+                              (0, i.jsx)("li", {
+                                className: Ie().quickLinkItem,
+                                children: (0, i.jsx)("a", {
+                                  href: "https://github.com/tumcuctom",
+                                  target: "_blank",
+                                  rel: "noopener noreferrer",
+                                  className: Ie().quickLinkLink,
+                                  onPointerEnter: () => e.cursor.current.dispSmall(),
+                                  onPointerLeave: () =>
+                                    o.transition.isZoom
+                                      ? e.cursor.current.dispMedium()
+                                      : e.cursor.current.dispDrag(),
+                                  children: (0, i.jsx)("img", {
+                                    src: "/_next/static/chunks/docs/github.sv",
+                                    alt: "GitHub",
+                                    className: Ie().quickLinkIcon
+                                  })
+                                })
+                              }),
+                          
+                              // LinkedIn
+                              (0, i.jsx)("li", {
+                                className: Ie().quickLinkItem,
+                                children: (0, i.jsx)("a", {
+                                  href: "https://www.linkedin.com/in/thomas-bale-5863542a4/",
+                                  target: "_blank",
+                                  rel: "noopener noreferrer",
+                                  className: Ie().quickLinkLink,
+                                  onPointerEnter: () => e.cursor.current.dispSmall(),
+                                  onPointerLeave: () =>
+                                    o.transition.isZoom
+                                      ? e.cursor.current.dispMedium()
+                                      : e.cursor.current.dispDrag(),
+                                  children: (0, i.jsx)("img", {
+                                    src: "/_next/static/chunks/docs/linkedin.svg",
+                                    alt: "LinkedIn",
+                                    className: Ie().quickLinkIcon
+                                  })
+                                })
+                              })
+                            ]
+                          }),             
+                        
+                        
+                        (0, i.jsx)("div", {
                             onClick: function() {
                                 e.cameraDefaultAngle.current()
                             },
@@ -2816,7 +2723,11 @@
                 social: "About_social__lcSTC",
                 title: "About_title__mGjZR",
                 columnsContainer: "About_columnsContainer__5zSTv",
-                columnsWrapper: "About_columnsWrapper__yCI5A"
+                columnsWrapper: "About_columnsWrapper__yCI5A",
+                quickLinks: "quickLinks",
+                quickLinkItem: "quickLinkItem",
+                quickLinkLink: "quickLinkLink",
+                quickLinkIcon: "quickLinkIcon"
             }
         },
         4465: function(e) {
@@ -2892,7 +2803,11 @@
                 sliderWrapper: "Panel_sliderWrapper__S7Uj0",
                 sliderOn: "Panel_sliderOn__Wg0HV",
                 sliderOff: "Panel_sliderOff__pvtyH",
-                sliderOffset: "Panel_sliderOffset__Aadk2"
+                sliderOffset: "Panel_sliderOffset__Aadk2",
+                quickLinks: "quickLinks",
+                quickLinkItem: "quickLinkItem",
+                quickLinkLink: "quickLinkLink",
+                quickLinkIcon: "quickLinkIcon"
             }
         },
         1957: function(e) {
