@@ -138,7 +138,7 @@
 
             function L(e) {
                 var n = function() {
-                        Ke.transition.isVideoLoaded || (console.log(Ee), Ee.setAttribute("src", "/video.mp4"), Ee.play(), Ke.transition.isVideoLoaded = !0)
+                        Ke.transition.isVideoLoaded || (console.log(Ee), Ee.setAttribute("src", `/media/videos/video.mp4`), Ee.play(), Ke.transition.isVideoLoaded = !0)
                     },
                     t = function() {
                         T.set(Te.position.x, Te.position.y, Te.position.z), k.set(Te.quaternion.x, Te.quaternion.y, Te.quaternion.z, Te.quaternion.w)
@@ -1990,7 +1990,7 @@
                             }), (0, i.jsxs)(b.animated.div, {
                                 className: Me().text,
                                 style: r,
-                                children: ["type ", e.idx]
+                                children: [e.name]
                             })]
                         })
                     })
@@ -2084,7 +2084,7 @@
                                     o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
                                 },
                                 children: (0, i.jsx)(De, {
-                                    idx: 1,
+                                    name: "Projects",
                                     isOn: u
                                 })
                             }), (0, i.jsx)("li", {
@@ -2098,7 +2098,7 @@
                                     o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
                                 },
                                 children: (0, i.jsx)(De, {
-                                    idx: 2,
+                                    name: "Experience",
                                     isOn: d
                                 })
                             }), (0, i.jsx)("li", {
@@ -2112,7 +2112,7 @@
                                     o.transition.isZoom ? e.cursor.current.dispMedium() : e.cursor.current.dispDrag()
                                 },
                                 children: (0, i.jsx)(De, {
-                                    idx: 3,
+                                    name: "Achievments",
                                     isOn: m
                                 })
                             })]
